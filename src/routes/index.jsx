@@ -16,7 +16,13 @@ export const Route = createFileRoute("/")({
                 content: "Manage book distribution across Shivaji University study centers: issue, return, renew, transfer and track every book copy.",
             },
             { property: "og:type", content: "website" },
-            { name: "twitter:card", content: "summary" },
+            // Add your custom share image hosted in your public folder:
+            { property: "og:image", content: "https://your-domain.vercel.app/og-image.png" },
+            { name: "twitter:card", content: "summary_large_image" },
+            { name: "twitter:image", content: "https://your-domain.vercel.app/og-image.png" },
+        ],
+        links: [
+            { rel: "icon", href: "/favicon.ico" },
         ],
     }),
     component: Index,
