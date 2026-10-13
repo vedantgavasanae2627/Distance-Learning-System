@@ -4,8 +4,7 @@ Can you analyze the project in git the study center management system
 
 
 **Live app**: https://study-center-su.vercel.app/
-
-
+deplyod on vercel
 ## Development
 
 Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
